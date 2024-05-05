@@ -1,8 +1,10 @@
 import './js/menu.js';
+import './js/toggleItemsVisibility.js';
 import Swiper from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+
 const swiper = new Swiper('.swiper-container', {
   loop: true,
   slidesPerView: 1,
