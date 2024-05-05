@@ -57,26 +57,32 @@
         </li>
       </ul>
     </div>
-    <button class="header-btn" type="button" data-mobile-menu-open>
+    <a
+      class="header-btn"
+      href="#openMobileMenu"
+      type="button"
+      data-mobile-menu-open
+    >
       <svg class="header-btn-open" width="34" height="34">
         <use href="/img/icon.svg#icon-open-menu"></use>
       </svg>
-    </button>
+    </a>
   </div>
 </header>
 
 <!-- Mob menu -->
-<div class="backdrop" data-mobile-data-menu>
-  <div class="mob-wrap">
-    <button class="mob-btn-close" type="button" data-mobile-menu-close>
+<div class="mob-wrap" id="openMobileMenu">
+  <a class="backdrop" href="#" data-mobile-data-menu></a>
+  <div class="menu-content">
+    <a href="#" class="mob-btn-close" type="button" data-mobile-menu-close>
       <svg class="btn-close" width="34" height="34">
         <use href="/img/icon.svg#icon-x"></use>
       </svg>
-    </button>
+    </a>
     <nav class="mob-menu">
       <ul class="mob-list">
         <li class="mob-item">
-          <a href="/index.html" class="mob-link current">Home</a>
+          <a href="./index.html" class="mob-link current">Home</a>
         </li>
         <li class="mob-item">
           <a href="#about-us" class="mob-link">About Us</a>
