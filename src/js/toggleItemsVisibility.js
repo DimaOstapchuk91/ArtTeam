@@ -1,8 +1,6 @@
 var buttonClicked = false; 
-
 function toggleItemsVisibility() {
   var listItems = document.querySelectorAll('.catalog-watch-link');
-
   if (!buttonClicked) {
     // show last 2
     for (var i = listItems.length - 2; i < listItems.length; i++) {
@@ -20,5 +18,4 @@ function toggleItemsVisibility() {
   }
   buttonClicked = !buttonClicked;
 }
-
 document.querySelector('.catalog-button').addEventListener('click', toggleItemsVisibility);
