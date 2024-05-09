@@ -24,12 +24,6 @@
   display: none;
 }
 
-.catalog-watch-link:nth-child(5) .catalog-picture-watch-img,
-.catalog-watch-link:nth-child(6) .catalog-picture-watch-img {
-  width: 208px;
-  height: 226px;
-}
-
 /*  */
 .picture-box {
   padding: 18px 36px;
